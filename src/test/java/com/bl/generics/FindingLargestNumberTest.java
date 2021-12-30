@@ -12,6 +12,13 @@ class FindingLargestNumberTest {
         Assertions.assertEquals(5, a);
         System.out.println("test is done");
     }
+    //adding testcase for checking 2nd number largest
+    @Test
+    void tesrlargestsecondvalue() {
+        int a = findingLargestNumber.maximum(3, 4, 2);
+        Assertions.assertEquals(4, a);
+        System.out.println("test is done");
+    }
 
 
 }
