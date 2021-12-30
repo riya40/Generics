@@ -27,6 +27,13 @@ public class FindingLargestNumberTest {
         Assertions.assertEquals(9,a);
         System.out.println("test is done");
     }
+    //adding testcase for firstnumber
+    @Test
+    public void testLargestFirstValueShouldLargeinFloatType() {
+        Double a = findingLargestNumber.maximum(5.5, 4.1, 2.0);
+        Assertions.assertEquals(5, a);
+        System.out.println("test is done");
+    }
 
 
 }
