@@ -18,6 +18,7 @@ public class FindingLargestNumber {
 
     public static void main(String[] args) {
         System.out.println(maximum(3,6,7));
+        System.out.println(maximum(2.2,1.5,5.6));
 
     }
 
