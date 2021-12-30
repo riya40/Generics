@@ -62,6 +62,12 @@ public class FindingLargestNumberTest {
         Assertions.assertEquals("java", a);
         System.out.println("test is done");
     }
+    @Test
+    public void testLargestShouldBeThirdValueinStringType() {
+        String a = findingLargestNumber.maximum("apple", "dog", "india");
+        Assertions.assertEquals("india", a);
+        System.out.println("test is done");
+    }
 
 
 }
