@@ -55,6 +55,13 @@ public class FindingLargestNumberTest {
         Assertions.assertEquals("java", a);
         System.out.println("test is done");
     }
+    //adding testcase for checking 2nd number largest
+    @Test
+    public void testLargestShouldBeSecondValueinStringType() {
+        String a = findingLargestNumber.maximum("apple", "java", "india");
+        Assertions.assertEquals("java", a);
+        System.out.println("test is done");
+    }
 
 
 }
