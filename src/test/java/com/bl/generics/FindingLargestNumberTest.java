@@ -20,5 +20,13 @@ class FindingLargestNumberTest {
         System.out.println("test is done");
     }
 
+    //adding testcase for checking 3rd number largest
+    @Test
+    void testlargestthirdvalue() {
+        int a = findingLargestNumber.maximum(5, 4, 9);
+        Assertions.assertEquals(9,a);
+        System.out.println("test is done");
+    }
+
 
 }
